@@ -102,10 +102,13 @@ You can automatically translate elements using `data-i18n` attributes.
 ```html
 <h1 data-i18n="global.title"></h1>
 <p data-i18n="messages.unread" data-i18n-vars='{"count": 5}'></p>
+
+<!-- For HTML content (uses innerHTML) -->
+<div data-i18n-html="html.welcome"></div>
 ```
 
 ```typescript
 t.autoTranslate();
 ```
 
-This method scans the document for elements with `data-i18n`, parses optional `data-i18n-vars` (JSON), and sets the text content.
+This method scans for `data-i18n` (sets `textContent`) and `data-i18n-html` (sets `innerHTML`), parsing optional `data-i18n-vars` (JSON).
