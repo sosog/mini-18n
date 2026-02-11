@@ -21,3 +21,19 @@ document.addEventListener('click', (e) => {
 
 // Initial render
 t.autoTranslate();
+
+// Inline pluralization example
+let clickCount = 0;
+const clickBtn = document.getElementById('click-btn');
+const clickCountEl = document.getElementById('click-count');
+
+clickBtn?.addEventListener('click', () => {
+  clickCount++;
+  if (clickCountEl) {
+    clickCountEl.textContent = t.plural(clickCount, {
+      zero: 'No clicks yet',
+      one: 'You clicked once',
+      other: 'You clicked {{count}} times'
+    });
+  }
+});
