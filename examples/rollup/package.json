@@ -1,5 +1,5 @@
 {
-    "name": "mini-i18n-rollup-example",
+    "name": "lite-i18n-rollup-example",
     "version": "1.0.0",
     "type": "module",
     "scripts": {
@@ -8,7 +8,7 @@
         "serve": "npm run build && npx serve dist"
     },
     "dependencies": {
-        "mini-i18n": "file:../../"
+        "lite-i18n": "file:../../"
     },
     "devDependencies": {
         "@rollup/plugin-commonjs": "^25.0.0",

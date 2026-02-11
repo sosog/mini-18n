@@ -1,12 +1,12 @@
 {
-    "name": "mini-i18n-webpack-example",
+    "name": "lite-i18n-webpack-example",
     "version": "1.0.0",
     "scripts": {
         "build": "webpack",
         "start": "webpack serve --open"
     },
     "dependencies": {
-        "mini-i18n": "file:../../"
+        "lite-i18n": "file:../../"
     },
     "devDependencies": {
         "webpack": "^5.0.0",

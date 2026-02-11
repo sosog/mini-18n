@@ -1,5 +1,5 @@
 {
-    "name": "mini-i18n-vite-example",
+    "name": "lite-i18n-vite-example",
     "private": true,
     "version": "0.0.0",
     "type": "module",
@@ -9,7 +9,7 @@
         "preview": "vite preview"
     },
     "dependencies": {
-        "mini-i18n": "file:../../"
+        "lite-i18n": "file:../../"
     },
     "devDependencies": {
         "typescript": "^5.2.2",

@@ -1,4 +1,4 @@
-# mini-i18n
+# lite-i18n
 
 A lightweight, type-safe string translation library for TypeScript/JavaScript.
 
@@ -14,7 +14,7 @@ A lightweight, type-safe string translation library for TypeScript/JavaScript.
 ## Installation
 
 ```bash
-npm install mini-i18n
+npm install lite-i18n
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ npm install mini-i18n
 ### Basic Usage
 
 ```typescript
-import { createTranslator } from 'mini-i18n';
+import { createTranslator } from 'lite-i18n';
 
 const translations = {
   en: {

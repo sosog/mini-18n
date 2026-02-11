@@ -1,5 +1,5 @@
 {
-    "name": "mini-i18n-esbuild-example",
+    "name": "lite-i18n-esbuild-example",
     "version": "1.0.0",
     "type": "module",
     "scripts": {
@@ -8,7 +8,7 @@
         "serve": "npm run build && npx serve ."
     },
     "dependencies": {
-        "mini-i18n": "file:../../"
+        "lite-i18n": "file:../../"
     },
     "devDependencies": {
         "esbuild": "^0.20.0"

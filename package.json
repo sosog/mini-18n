@@ -1,5 +1,5 @@
 {
-  "name": "mini-i18n",
+  "name": "lite-i18n",
   "version": "1.0.1-beta.0",
   "description": "Lightweight string translation library",
   "main": "./dist/index.js",

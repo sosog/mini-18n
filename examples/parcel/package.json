@@ -1,13 +1,13 @@
 {
-    "name": "mini-i18n-parcel-example",
+    "name": "lite-i18n-parcel-example",
     "version": "1.0.0",
-    "description": "Example usage of mini-i18n with Parcel",
+    "description": "Example usage of lite-i18n with Parcel",
     "scripts": {
         "start": "parcel index.html",
         "build": "parcel build index.html"
     },
     "dependencies": {
-        "mini-i18n": "file:../../"
+        "lite-i18n": "file:../../"
     },
     "devDependencies": {
         "parcel": "^2.11.0",
