@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translit Example - Parcel</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: #f7f9fc;
+            color: #333;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-top: 0;
+        }
+
+        button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background-color 0.2s;
+            margin-right: 0.5rem;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+
+        button.active {
+            background-color: #1a252f;
+        }
+
+        .controls {
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #eee;
+        }
+
+        .dynamic-value {
+            font-weight: bold;
+            color: #e74c3c;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="controls">
+            <!-- Language buttons -->
+            <button data-locale="en">EN</button>
+            <button data-locale="es">ES</button>
+        </div>
+
+        <!-- Simple translations -->
+        <h1 data-i18n="global.title">Loading...</h1>
+
+        <!-- With variables -->
+        <p data-i18n="user.greeting" data-i18n-vars='{"name":"Alice"}'>Loading...</p>
+        <p data-i18n="messages.unread" data-i18n-vars='{"count":1}'>Loading...</p>
+        <p data-i18n="items.cart" data-i18n-vars='{"count":5}'>Loading...</p>
+
+        <!-- HTML Example -->
+        <div data-i18n-html="html.welcome" data-i18n-vars='{"name": "<span style=\"color: red\">Admin</span>"}'>
+            Loading...
+        </div>
+    </div>
+
+    <script type="module" src="./src/index.ts"></script>
+</body>
+
+</html>

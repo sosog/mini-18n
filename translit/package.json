@@ -1,0 +1,34 @@
+{
+  "name": "translit",
+  "version": "1.0.0",
+  "description": "Lightweight string translation library",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "i18n",
+    "translation",
+    "localization",
+    "typescript"
+  ],
+  "license": "MIT"
+}
