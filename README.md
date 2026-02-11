@@ -1,3 +1,9 @@
+## ⚠️ Beta Warning
+
+This package was created with AI assistance and is currently in **beta**. Use in production at your own risk.
+
+Please try it out and report any issues or suggestions you may have!
+
 # lite-i18n
 
 A lightweight, type-safe string translation library for TypeScript/JavaScript.

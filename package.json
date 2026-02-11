@@ -30,5 +30,8 @@
     "localization",
     "typescript"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "lite-i18n": "^1.0.1-beta.0"
+  }
 }
