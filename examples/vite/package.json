@@ -1,5 +1,5 @@
 {
-    "name": "translit-vite-example",
+    "name": "mini-i18n-vite-example",
     "private": true,
     "version": "0.0.0",
     "type": "module",
@@ -9,7 +9,7 @@
         "preview": "vite preview"
     },
     "dependencies": {
-        "translit": "file:../../"
+        "mini-i18n": "file:../../"
     },
     "devDependencies": {
         "typescript": "^5.2.2",

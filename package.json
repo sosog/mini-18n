@@ -1,5 +1,5 @@
 {
-  "name": "translit",
+  "name": "mini-i18n",
   "version": "1.0.0",
   "description": "Lightweight string translation library",
   "main": "./dist/index.js",

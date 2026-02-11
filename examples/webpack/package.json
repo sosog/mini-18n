@@ -1,12 +1,12 @@
 {
-    "name": "translit-webpack-example",
+    "name": "mini-i18n-webpack-example",
     "version": "1.0.0",
     "scripts": {
         "build": "webpack",
         "start": "webpack serve --open"
     },
     "dependencies": {
-        "translit": "file:../../"
+        "mini-i18n": "file:../../"
     },
     "devDependencies": {
         "webpack": "^5.0.0",

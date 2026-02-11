@@ -1,4 +1,4 @@
-import { createTranslator } from 'translit';
+import { createTranslator } from 'mini-i18n';
 import { en } from './translations/en';
 import { es } from './translations/es';
 

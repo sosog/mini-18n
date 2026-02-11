@@ -1,6 +1,6 @@
 export const en = {
     global: {
-        title: 'Translit Demo'
+        title: 'mini-i18n Demo'
     },
     user: {
         greeting: 'Hello, {{name}}!',

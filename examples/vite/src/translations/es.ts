@@ -1,6 +1,6 @@
 export const es = {
     global: {
-        title: 'Demostración de Translit'
+        title: 'Demostración de mini-i18n'
     },
     user: {
         greeting: '¡Hola, {{name}}!',

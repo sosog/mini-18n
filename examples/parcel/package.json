@@ -1,13 +1,13 @@
 {
-    "name": "translit-parcel-example",
+    "name": "mini-i18n-parcel-example",
     "version": "1.0.0",
-    "description": "Example usage of translit with Parcel",
+    "description": "Example usage of mini-i18n with Parcel",
     "scripts": {
         "start": "parcel index.html",
         "build": "parcel build index.html"
     },
     "dependencies": {
-        "translit": "file:../../"
+        "mini-i18n": "file:../../"
     },
     "devDependencies": {
         "parcel": "^2.11.0",
