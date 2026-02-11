@@ -1,0 +1,16 @@
+{
+    "name": "translit-esbuild-example",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "build": "node build.js",
+        "dev": "node build.js --watch",
+        "serve": "npm run build && npx serve ."
+    },
+    "dependencies": {
+        "translit": "file:../../"
+    },
+    "devDependencies": {
+        "esbuild": "^0.20.0"
+    }
+}
